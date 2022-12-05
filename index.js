@@ -74,4 +74,24 @@ else
     console.log('score is ' +score);
     console.log('Better luck next time');
 }
+// fav city
+console.log('************************************');
+
+var city = readlineSync.question('My Fav City :');
+var ans = 'pune';
+
+console.log(city)
+if(city === ans)
+{
+  score=score + 1;
+  console.log('score is ' +score);
+  var choice= 'Yess you selected correct choice: ' +" " +city ;
+console.log(choice)
+}
+else
+{
+    console.log('score is ' +score);
+    console.log('Better luck next time');
+}
+
 
